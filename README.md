@@ -1,15 +1,29 @@
-The model is designed for sentiment analysis on movie reviews, using a deep learning approach to classify them as positive or negative.
+Python File Organizer
+Overview
+A simple Python script to automatically organize files into categorized subfolders based on their file extensions. Helps declutter your directories!
 
-Project Overview
-This project uses an LSTM (Long Short-Term Memory) network to analyze text from the IMDb movie review dataset. It includes the entire workflow from data loading and preprocessing to model training and evaluation. The model achieves approximately 87% accuracy in distinguishing between positive and negative reviews.
+How to Use
+Save: Copy the Python code into file_organizer.py.
 
-Core Components
-Technology: The project is built using Python with TensorFlow and Keras.
-Dataset: It utilizes the IMDb dataset, which contains 50,000 movie reviews split for training and testing.
-Model Architecture: The core of the solution is an LSTM network, which is well-suited for processing sequential data like text.
-Preprocessing: To ensure uniformity, all reviews are padded to a length of 256 words.
+Configure: Edit file_organizer.py to set target_directory to the path of the folder you want to organize (e.g., r"C:\MyMessyFiles" or "/Users/MyFiles").
 
-Key Outcomes
-Performance: The model demonstrates strong predictive accuracy on unseen data.
-Challenges: Key challenges included preventing the model from overfitting and selecting an appropriate sequence length for the reviews.
-Future Work: Potential improvements include using more advanced algorithms like Transformers, incorporating larger datasets, and deploying the model for real-time use.
+Run: Open terminal, navigate to the script's location, and run python file_organizer.py.
+
+Important Safety Notes
+Always Back Up: Make a copy of important data before running.
+
+Test Safely: First, test on a small, non-critical folder with dummy files.
+
+Features
+Automatic file classification.
+
+Customizable categories.
+
+Safe handling of duplicate filenames.
+
+Clear terminal output.
+
+Ideas for Improvement
+Add user input, confirmation prompts, logging, or a GUI.
+
+Happy Organizing!
